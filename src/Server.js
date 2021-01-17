@@ -26,7 +26,7 @@ class Server {
 			o.set({
 				'Access-Control-Allow-Origin': '*',
 				'Access-Control-Allow-Methods':
-					'POST, GET, PUT, PATCH, OPTIONS',
+					'POST, GET, PUT, PATCH, DELETE, OPTIONS',
 				'Access-Control-Allow-Headers': '*'
 			})
 			if (i.method === 'OPTIONS') {
